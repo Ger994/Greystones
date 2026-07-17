@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greystones, Kilmacolm | Exclusive Use Country House for Weddings &amp; Celebrations | Sleeps 12 to 16</title>
+<meta name="description" content="Greystones is an exclusive use Arts &amp; Crafts country house in Kilmacolm, Renfrewshire. Sleeps 12 to 16 across beautifully restored interiors, with private catering, cinema &amp; games room, conservatory and sweeping loch views. From £1,500 per night.">
+<meta property="og:title" content="Greystones, Kilmacolm | Exclusive Use Country House">
+<meta property="og:description" content="Sleeps 12 to 16 · Weddings &amp; celebrations · Private catering · From £1,500 per night">
+<meta property="og:image" content="images/hero.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Albert+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Greystones",
+  "description": "Exclusive-use Arts & Crafts country house in Kilmacolm, Renfrewshire. Sleeps 12 to 16, ideal for weddings and large celebrations, with private catering available.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kilmacolm",
+    "addressRegion": "Renfrewshire",
+    "addressCountry": "GB"
+  },
+  "priceRange": "From £1,500 per night",
+  "amenityFeature": [
+    {"@type": "LocationFeatureSpecification", "name": "Sleeps 12 to 16"},
+    {"@type": "LocationFeatureSpecification", "name": "Private catering available"},
+    {"@type": "LocationFeatureSpecification", "name": "Cinema and games room"},
+    {"@type": "LocationFeatureSpecification", "name": "Conservatory and formal gardens"}
+  ]
+}
+</script>
+<style>
+:root{
+  --pine:#152720;           /* deep bottle green */
+  --pine-soft:#1d3229;
+  --ivory:#f6f3ec;
+  --paper:#fbf9f4;
+  --moss:#5f6430;           /* velvet chair green */
+  --moss-deep:#494e24;
+  --tile:#a04a35;           /* roof tile red, used sparingly */
+  --brass:#b3915a;
+  --ink:#33302b;
+  --ink-soft:#6d675e;
+  --line:#ddd6c9;
+  --shadow:0 18px 50px rgba(34,30,27,.16);
+  --radius:2px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+body{
+  font-family:'Albert Sans',system-ui,sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.65;
+  font-size:16.5px;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3,.display{font-family:'Fraunces',serif;font-weight:400;line-height:1.12;letter-spacing:.005em}
+.eyebrow{
+  font-family:'Albert Sans',sans-serif;
+  font-size:.72rem;font-weight:600;
+  letter-spacing:.28em;text-transform:uppercase;
+  color:var(--moss);
+  display:flex;align-items:center;gap:.9rem;
+}
+.eyebrow::before{content:"";width:34px;height:1px;background:var(--moss);display:inline-block}
+.container{max-width:1220px;margin:0 auto;padding:0 clamp(1.2rem,4vw,3rem)}
+
+/* ---------- quatrefoil mark (from the hall's leaded glass) ---------- */
+.qf{display:inline-block;vertical-align:middle}
+
+/* ---------- nav ---------- */
+nav{
+  position:fixed;inset:0 0 auto 0;z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1rem clamp(1.2rem,4vw,3rem);
+  transition:background .35s ease, box-shadow .35s ease, padding .35s ease;
+  color:#fff;
+}
+nav.scrolled{background:rgba(21,39,32,.97);box-shadow:0 4px 24px rgba(0,0,0,.25);padding:.7rem clamp(1.2rem,4vw,3rem)}
+.brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
+.brand .name{font-family:'Fraunces',serif;font-size:1.35rem;letter-spacing:.06em}
+.brand .place{font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;display:block;margin-top:-2px}
+.navlinks{display:flex;gap:2rem;align-items:center;list-style:none}
+.navlinks a{font-size:.8rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;opacity:.85;transition:opacity .2s}
+.navlinks a:hover,.navlinks a:focus-visible{opacity:1}
+.btn{
+  display:inline-block;background:var(--moss);color:#fff;text-decoration:none;
+  font-size:.8rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  padding:.85rem 1.7rem;border:none;border-radius:var(--radius);cursor:pointer;
+  transition:background .25s ease,transform .2s ease;
+}
+.btn:hover,.btn:focus-visible{background:var(--moss-deep);transform:translateY(-1px)}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.55)}
+.btn.ghost:hover{background:rgba(255,255,255,.12)}
+.btn.dark{background:var(--pine)}
+.btn.dark:hover{background:#0c1a15}
+.menu-toggle{display:none;background:none;border:none;color:#fff;font-size:1.6rem;cursor:pointer}
+
+/* ---------- hero ---------- */
+header.hero{
+  min-height:100svh;position:relative;display:flex;align-items:flex-end;
+  color:#fff;overflow:hidden;
+}
+.hero-bg{position:absolute;inset:0;background:url('images/hero.jpg') center 62%/cover no-repeat;transform:scale(1.04);animation:heroDrift 22s ease-out forwards}
+@keyframes heroDrift{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,26,21,.45) 0%,rgba(13,26,21,.05) 38%,rgba(13,26,21,.74) 100%)}
+.hero-inner{position:relative;z-index:2;width:100%;padding:0 clamp(1.2rem,4vw,3rem) clamp(2.5rem,6vh,4.5rem)}
+.hero h1{font-size:clamp(2.9rem,7.5vw,6.2rem);font-weight:300;max-width:15ch;text-wrap:balance}
+.hero h1 em{font-style:italic;font-weight:300}
+.hero .sub{margin-top:1.2rem;font-size:1.02rem;font-weight:300;max-width:52ch;opacity:.92}
+.hero-meta{
+  display:flex;flex-wrap:wrap;gap:0 2.6rem;margin-top:2rem;padding-top:1.4rem;
+  border-top:1px solid rgba(255,255,255,.35);
+}
+.hero-meta div{padding:.4rem 0}
+.hero-meta .k{font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;opacity:.72}
+.hero-meta .v{font-family:'Fraunces',serif;font-size:1.35rem;margin-top:.1rem}
+.hero-cta{margin-top:1.8rem;display:flex;gap:1rem;flex-wrap:wrap}
+
+/* ---------- sections ---------- */
+section{padding:clamp(4.5rem,9vw,7.5rem) 0}
+.sect-head{max-width:640px;margin-bottom:clamp(2.5rem,5vw,4rem)}
+.sect-head h2{font-size:clamp(2rem,4.4vw,3.2rem);margin-top:1rem}
+.sect-head p{margin-top:1.1rem;color:var(--ink-soft)}
+
+/* intro */
+#house .lead{
+  font-family:'Fraunces',serif;font-size:clamp(1.5rem,3vw,2.15rem);line-height:1.4;
+  font-weight:300;max-width:30ch;
+}
+.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2.5rem,6vw,5.5rem);align-items:start}
+.intro-copy p{margin-top:1.3rem;color:var(--ink-soft)}
+.facts{margin-top:2.4rem;border-top:1px solid var(--line)}
+.facts div{display:flex;justify-content:space-between;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.facts dt{color:var(--ink-soft)}
+.facts dd{font-weight:600;text-align:right}
+.intro-photo{position:relative}
+.intro-photo img{box-shadow:var(--shadow)}
+.intro-photo .caption{font-size:.78rem;letter-spacing:.08em;color:var(--ink-soft);margin-top:.8rem}
+
+/* rooms, alternating */
+#rooms{background:var(--ivory);border-block:1px solid var(--line)}
+.room{
+  display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4.5rem);
+  align-items:center;padding:clamp(2.2rem,5vw,3.6rem) 0;
+}
+.room + .room{border-top:1px solid var(--line)}
+.room:nth-child(even) .room-img{order:2}
+.room-img{overflow:hidden}
+.room-img img{transition:transform .8s ease}
+.room:hover .room-img img{transform:scale(1.025)}
+.room h3{font-size:clamp(1.5rem,2.6vw,2.05rem)}
+.room .rn{font-family:'Fraunces',serif;font-style:italic;color:var(--brass);font-size:.95rem;margin-bottom:.5rem;display:block}
+.room p{margin-top:.9rem;color:var(--ink-soft);max-width:46ch}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:10px}
+.gallery a{overflow:hidden;display:block;position:relative}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}
+.gallery a:hover img{transform:scale(1.05)}
+.gallery a:nth-child(1){grid-column:span 2;grid-row:span 2}
+.gallery a:nth-child(6){grid-column:span 2}
+.gallery a:focus-visible{outline:3px solid var(--moss);outline-offset:2px}
+
+/* weddings */
+#weddings{background:var(--pine);color:#efece4}
+#weddings .eyebrow{color:var(--brass)}
+#weddings .sect-head p{color:rgba(239,236,228,.72)}
+.wed-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:1rem}
+.wed-card{background:var(--pine-soft);border:1px solid rgba(255,255,255,.09);padding:0 0 1.8rem}
+.wed-card .art{height:220px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(255,255,255,.09);background:
+  radial-gradient(ellipse at 50% 120%, rgba(179,145,90,.16), transparent 60%)}
+.wed-card h3{font-size:1.3rem;padding:1.4rem 1.6rem .4rem}
+.wed-card p{padding:0 1.6rem;font-size:.93rem;color:rgba(239,236,228,.7)}
+.wed-note{
+  margin-top:3rem;display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center;
+  border-top:1px solid rgba(255,255,255,.14);padding-top:3rem;
+}
+.wed-note img{box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.wed-note .display{font-size:clamp(1.5rem,2.8vw,2.1rem);font-weight:300;line-height:1.35}
+.wed-note .display em{color:var(--brass)}
+.wed-note p{margin-top:1.2rem;color:rgba(239,236,228,.7)}
+
+/* catering */
+.cater-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(2.5rem,6vw,5rem);align-items:center}
+.cater-list{list-style:none;margin-top:1.8rem}
+.cater-list li{padding:.9rem 0;border-bottom:1px solid var(--line);display:flex;gap:1rem;align-items:baseline}
+.cater-list li::before{content:"";width:7px;height:7px;background:var(--moss);border-radius:50%;flex:none;transform:translateY(-1px)}
+
+/* booking */
+#book{background:var(--ivory);border-block:1px solid var(--line)}
+.book-wrap{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(2.5rem,6vw,5rem)}
+.book-side .price{font-family:'Fraunces',serif;font-size:clamp(2.4rem,5vw,3.6rem);margin-top:1rem}
+.book-side .price small{font-size:1rem;font-family:'Albert Sans',sans-serif;color:var(--ink-soft);letter-spacing:.04em}
+.book-side ul{list-style:none;margin-top:1.6rem}
+.book-side li{padding:.7rem 0;border-bottom:1px solid var(--line);font-size:.95rem;color:var(--ink-soft);display:flex;gap:.9rem;align-items:baseline}
+.book-side li strong{color:var(--ink)}
+.form-card{background:#fff;border:1px solid var(--line);padding:clamp(1.6rem,3.5vw,2.6rem);box-shadow:var(--shadow)}
+.form-card h3{font-size:1.5rem;margin-bottom:1.4rem}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.fgroup{display:flex;flex-direction:column;gap:.35rem;margin-bottom:1rem}
+.frow .fgroup{margin-bottom:0}
+label{font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+input,select,textarea{
+  font:inherit;padding:.8rem .95rem;border:1px solid var(--line);border-radius:var(--radius);
+  background:var(--paper);color:var(--ink);width:100%;
+}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--moss);outline-offset:1px;border-color:var(--moss)}
+textarea{resize:vertical;min-height:96px}
+.estimate{
+  background:var(--paper);border:1px dashed var(--brass);padding:1rem 1.2rem;margin:1.2rem 0 1.4rem;
+  display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;
+}
+.estimate .amt{font-family:'Fraunces',serif;font-size:1.7rem}
+.estimate .note{font-size:.78rem;color:var(--ink-soft);width:100%}
+.form-msg{margin-top:1rem;font-size:.9rem;display:none;padding:1rem 1.2rem;border-radius:var(--radius)}
+.form-msg.ok{display:block;background:#eef1e2;border:1px solid var(--moss);color:var(--moss-deep)}
+.form-msg.err{display:block;background:#f8e9e4;border:1px solid var(--tile);color:#7c3423}
+
+/* location + faq */
+.loc-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2.5rem,6vw,5rem);align-items:center}
+.loc-list{list-style:none;margin-top:1.6rem}
+.loc-list li{display:flex;justify-content:space-between;gap:1rem;padding:.85rem 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.loc-list span:last-child{font-weight:600}
+details{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;padding:1.2rem 0;font-family:'Fraunces',serif;font-size:1.15rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:'Albert Sans';font-size:1.3rem;color:var(--moss);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 1.3rem;color:var(--ink-soft);max-width:65ch}
+
+/* footer */
+footer{background:var(--pine);color:rgba(239,236,228,.72);padding:3.5rem 0 2.5rem;font-size:.9rem}
+.foot-grid{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;align-items:flex-start}
+footer .brand .name{color:#fff}
+footer a{text-decoration:none}
+footer a:hover{color:#fff}
+.foot-links{list-style:none;display:flex;gap:1.8rem;flex-wrap:wrap}
+.foot-bottom{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.78rem;color:rgba(239,236,228,.45)}
+
+/* lightbox */
+.lightbox{position:fixed;inset:0;background:rgba(13,22,18,.95);z-index:200;display:none;align-items:center;justify-content:center;padding:2rem}
+.lightbox.open{display:flex}
+.lightbox img{max-width:92vw;max-height:88vh;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.lightbox button{position:absolute;top:1.2rem;right:1.6rem;background:none;border:none;color:#fff;font-size:2.2rem;cursor:pointer}
+
+/* reveal on scroll */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:960px){
+  .intro-grid,.book-wrap,.cater-grid,.loc-grid,.wed-note{grid-template-columns:1fr}
+  .room{grid-template-columns:1fr}
+  .room:nth-child(even) .room-img{order:0}
+  .wed-grid{grid-template-columns:1fr}
+  .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:180px}
+  .gallery a:nth-child(1){grid-column:span 2}
+  .navlinks{
+    position:fixed;inset:0;background:rgba(21,39,32,.98);flex-direction:column;justify-content:center;
+    font-size:1.1rem;display:none;
+  }
+  .navlinks.open{display:flex}
+  .menu-toggle{display:block;z-index:110}
+}
+@media(max-width:560px){
+  .frow{grid-template-columns:1fr}
+  .hero-meta{gap:0 1.6rem}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav" aria-label="Main">
+  <a class="brand" href="#top">
+    <svg class="qf" width="30" height="30" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+      <circle cx="20" cy="11" r="8" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="20" cy="29" r="8" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="11" cy="20" r="8" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="29" cy="20" r="8" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="20" cy="20" r="3.4" stroke="currentColor" stroke-width="1.4"/>
+    </svg>
+    <span><span class="name">Greystones</span><span class="place">Kilmacolm · Scotland</span></span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" onclick="toggleMenu()">☰</button>
+  <ul class="navlinks" id="navlinks">
+    <li><a href="#house" onclick="closeMenu()">The House</a></li>
+    <li><a href="#rooms" onclick="closeMenu()">Rooms</a></li>
+    <li><a href="#weddings" onclick="closeMenu()">Weddings</a></li>
+    <li><a href="#catering" onclick="closeMenu()">Catering</a></li>
+    <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+    <li><a class="btn" href="#book" onclick="closeMenu()">Check availability</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-bg" role="img" aria-label="Greystones, an Arts and Crafts stone country house with red tiled roof, seen across its lawn"></div>
+  <div class="hero-inner container" style="max-width:1220px">
+    <h1>The house the whole party talks about</h1>
+    <p class="sub">Greystones is a fully restored Arts &amp; Crafts country house in Kilmacolm, taken on an exclusive use basis. It was made for the weekends that matter: weddings, big birthdays, and whole families under one remarkable roof.</p>
+    <div class="hero-meta">
+      <div><div class="k">Sleeps</div><div class="v">12 to 16</div></div>
+      <div><div class="k">Use</div><div class="v">Exclusive</div></div>
+      <div><div class="k">From</div><div class="v">£1,500 <span style="font-size:.85rem;font-family:'Albert Sans'">/ night</span></div></div>
+      <div><div class="k">Catering</div><div class="v">Private chef</div></div>
+    </div>
+    <div class="hero-cta">
+      <a class="btn" href="#book">Check availability</a>
+      <a class="btn ghost" href="#weddings">Host your wedding</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ THE HOUSE ============ -->
+<section id="house">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-copy reveal">
+        <p class="eyebrow">The house</p>
+        <p class="lead" style="margin-top:1.2rem">A century old whinstone house, quietly brought into the present.</p>
+        <p>Behind the stone walls and leaded glass sits an interior that has been restored from end to end. The panelled hall and stained glass belong to the house's first century; the marble kitchen island, cinema room and deep sofas belong firmly to this one. It photographs like a heritage property and lives like a five star hotel.</p>
+        <p>The house stands in mature private gardens with open views across the Renfrewshire countryside to the water beyond. Sixteen guests fit without it ever feeling crowded, and a party of twelve has room to spread out, cook, screen a film and lose an afternoon at the pool table.</p>
+        <dl class="facts">
+          <div><dt>Guests</dt><dd>12 to 16, exclusive use</dd></div>
+          <div><dt>Events</dt><dd>Weddings &amp; private celebrations</dd></div>
+          <div><dt>Catering</dt><dd>Private chef available, plus catering kitchen</dd></div>
+          <div><dt>Entertaining</dt><dd>Cinema &amp; games room, conservatory, formal lawns</dd></div>
+          <div><dt>Nightly rate</dt><dd>From £1,500</dd></div>
+        </dl>
+      </div>
+      <div class="intro-photo reveal">
+        <img src="images/g93.jpg" alt="Aerial view of Greystones' stone façade, red tiled roof and landscaped front garden" loading="lazy">
+        <p class="caption">The front approach: private drive, mature planting, and parking for the whole party.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ROOMS ============ -->
+<section id="rooms">
+  <div class="container">
+    <div class="sect-head reveal">
+      <p class="eyebrow">Inside</p>
+      <h2>Room by room</h2>
+      <p>Every space at Greystones earns its keep, from the grand hall that greets your guests to the attic games room that keeps them up too late.</p>
+    </div>
+
+    <div class="room reveal">
+      <div class="room-img"><img src="images/g03.jpg" alt="Panelled entrance hall with stained glass windows, window seat and slate floor" loading="lazy"></div>
+      <div>
+        <span class="rn">First impressions</span>
+        <h3>The Great Hall</h3>
+        <p>Original timber panelling, stained-glass roundels and a slate floor set the tone the moment the front door opens. This is where the champagne gets poured, the coats come off and the weekend properly begins.</p>
+      </div>
+    </div>
+
+    <div class="room reveal">
+      <div class="room-img"><img src="images/g71.jpg" alt="Modern kitchen with dramatic marble island, French doors open to the garden" loading="lazy"></div>
+      <div>
+        <span class="rn">The heart of the house</span>
+        <h3>The Marble Kitchen</h3>
+        <p>A statement marble island anchors a fully fitted modern kitchen, with glazed doors opening straight onto the terrace and lawn. There is space for a crowd to cook together, or to stand back with a glass while a chef takes over.</p>
+      </div>
+    </div>
+
+    <div class="room reveal">
+      <div class="room-img"><img src="images/g17.jpg" alt="Drawing room with fireplace, large corner sofa and view through to the conservatory" loading="lazy"></div>
+      <div>
+        <span class="rn">Gathering</span>
+        <h3>Drawing Room &amp; Conservatory</h3>
+        <p>Deep sofas around the fire flow into a glass roofed conservatory with views the length of the garden and far beyond it. Morning coffee happens at one end of the day here, nightcaps at the other.</p>
+      </div>
+    </div>
+
+    <div class="room reveal">
+      <div class="room-img"><img src="images/g38.jpg" alt="Principal bedroom with king bed, sculptural pendant lighting and oak floors" loading="lazy"></div>
+      <div>
+        <span class="rn">Rest</span>
+        <h3>The Bedrooms</h3>
+        <p>Beautifully dressed bedrooms sleep twelve to sixteen across the house, from the principal suite with its bay-window sitting area and long views over the water, to generous rooms for family and friends.</p>
+      </div>
+    </div>
+
+    <div class="room reveal">
+      <div class="room-img"><img src="images/g63.jpg" alt="Attic games room with pool table, table tennis top, cinema screen and tiered seating" loading="lazy"></div>
+      <div>
+        <span class="rn">Play</span>
+        <h3>Cinema &amp; Games Room</h3>
+        <p>Under the eaves: a full cinema setup with tiered seating, a pool table, and table tennis. Rainy day insurance, a teenage sanctuary, and the natural home of the late night rematch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WEDDINGS ============ -->
+<section id="weddings">
+  <div class="container">
+    <div class="sect-head reveal">
+      <p class="eyebrow">Celebrations</p>
+      <h2>Weddings at Greystones</h2>
+      <p>Exclusive use of the whole house and grounds means the wedding weekend runs your way. Ceremony on the lawn, dinner in a marquee, dancing until the small hours, and everyone you love asleep under one roof.</p>
+    </div>
+    <div class="wed-grid">
+      <article class="wed-card reveal">
+        <div class="art" aria-hidden="true">
+          <svg width="150" height="150" viewBox="0 0 160 160" fill="none" stroke="#b3915a" stroke-width="1.3">
+            <path d="M30 130 L30 70 Q80 30 130 70 L130 130"/>
+            <path d="M30 70 Q80 46 130 70"/>
+            <line x1="80" y1="40" x2="80" y2="26"/><circle cx="80" cy="22" r="3"/>
+            <line x1="20" y1="130" x2="140" y2="130"/>
+            <path d="M52 130 V96 Q52 88 60 88 H100 Q108 88 108 96 V130" stroke-dasharray="3 4"/>
+          </svg>
+        </div>
+        <h3>The ceremony</h3>
+        <p>Exchange vows on the lawn against open countryside, in the conservatory, or before the fire in the Great Hall. Three settings, one address.</p>
+      </article>
+      <article class="wed-card reveal">
+        <div class="art" aria-hidden="true">
+          <svg width="150" height="150" viewBox="0 0 160 160" fill="none" stroke="#b3915a" stroke-width="1.3">
+            <ellipse cx="80" cy="110" rx="52" ry="14"/>
+            <line x1="80" y1="96" x2="80" y2="58"/>
+            <path d="M62 58 H98 M66 44 H94" />
+            <circle cx="80" cy="34" r="8"/>
+            <path d="M56 110 a24 8 0 0 1 48 0" stroke-dasharray="3 4"/>
+          </svg>
+        </div>
+        <h3>The wedding breakfast</h3>
+        <p>A marquee on the main lawn seats your full guest list; smaller parties dine in the house itself. Our private catering team builds the menu around you.</p>
+      </article>
+      <article class="wed-card reveal">
+        <div class="art" aria-hidden="true">
+          <svg width="150" height="150" viewBox="0 0 160 160" fill="none" stroke="#b3915a" stroke-width="1.3">
+            <path d="M45 120 Q45 70 80 70 Q115 70 115 120"/>
+            <line x1="35" y1="120" x2="125" y2="120"/>
+            <circle cx="60" cy="48" r="2.5"/><circle cx="82" cy="38" r="2.5"/><circle cx="103" cy="50" r="2.5"/>
+            <circle cx="70" cy="28" r="2"/><circle cx="94" cy="26" r="2"/>
+          </svg>
+        </div>
+        <h3>The morning after</h3>
+        <p>No taxis at midnight. The wedding party wakes up at Greystones to a long breakfast, a walk round the gardens and the retelling of the night before.</p>
+      </article>
+    </div>
+    <div class="wed-note reveal">
+      <img src="images/g96.jpg" alt="The rear of Greystones with its conservatory, stone terrace and expansive level lawn" loading="lazy">
+      <div>
+        <p class="display">The main lawn is level, private and framed by mature trees. <em>A natural stage</em> for a marquee, a ceremony arch, or a hundred chairs facing the view.</p>
+        <p>Tell us your numbers and your date, and we'll talk through layouts, marquee suppliers we trust, licensing for your celebrant, and how the weekend can run from first arrival to final farewell.</p>
+        <a class="btn" style="margin-top:1.6rem" href="#book">Enquire about a wedding</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATERING ============ -->
+<section id="catering">
+  <div class="container">
+    <div class="cater-grid">
+      <div class="reveal">
+        <p class="eyebrow">Food &amp; drink</p>
+        <h2 style="font-size:clamp(2rem,4vw,3rem);margin-top:1rem">Private catering, properly equipped</h2>
+        <p style="margin-top:1.2rem;color:var(--ink-soft)">Greystones is one of the few private houses of its kind with a dedicated catering kitchen alongside the main marble kitchen. The professional stainless steel setup lets chefs deliver restaurant standard service for a full house or a full marquee.</p>
+        <ul class="cater-list">
+          <li>Private chef service, from a single celebration dinner to catering for the whole weekend</li>
+          <li>Separate professional catering kitchen with commercial convection oven</li>
+          <li>Wedding &amp; event catering coordinated with trusted local suppliers</li>
+          <li>Self catering welcome, and the marble kitchen is a pleasure to cook in</li>
+        </ul>
+      </div>
+      <div class="reveal"><img src="images/g09.jpg" alt="Professional stainless steel catering kitchen with commercial convection oven" loading="lazy" style="box-shadow:var(--shadow)"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="gallery" style="padding-top:0">
+  <div class="container">
+    <div class="sect-head reveal">
+      <p class="eyebrow">Gallery</p>
+      <h2>See the house</h2>
+    </div>
+    <div class="gallery reveal">
+      <a href="images/g95.jpg" onclick="return lb(this)"><img src="images/g95.jpg" alt="Aerial view over Greystones towards the loch and hills" loading="lazy"></a>
+      <a href="images/g27.jpg" onclick="return lb(this)"><img src="images/g27.jpg" alt="Glass-roofed conservatory with garden views" loading="lazy"></a>
+      <a href="images/g35.jpg" onclick="return lb(this)"><img src="images/g35.jpg" alt="Bay window sitting area with green velvet chairs and countryside views" loading="lazy"></a>
+      <a href="images/g84.jpg" onclick="return lb(this)"><img src="images/g84.jpg" alt="Sitting room with velvet sofas and artwork" loading="lazy"></a>
+      <a href="images/g87.jpg" onclick="return lb(this)"><img src="images/g87.jpg" alt="Family room with fireplace and illuminated shelving" loading="lazy"></a>
+      <a href="images/g91.jpg" onclick="return lb(this)"><img src="images/g91.jpg" alt="Second sitting room opening to the conservatory" loading="lazy"></a>
+      <a href="images/g77.jpg" onclick="return lb(this)"><img src="images/g77.jpg" alt="Kitchen island with glassware cabinets and whisky" loading="lazy"></a>
+      <a href="images/g36.jpg" onclick="return lb(this)"><img src="images/g36.jpg" alt="Dressing area with armchairs and long views" loading="lazy"></a>
+      <a href="images/g94.jpg" onclick="return lb(this)"><img src="images/g94.jpg" alt="Side elevation of the house with countryside beyond" loading="lazy"></a>
+      <a href="images/g97.jpg" onclick="return lb(this)"><img src="images/g97.jpg" alt="Top-down aerial of the house, gardens and grounds" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section id="book">
+  <div class="container">
+    <div class="book-wrap">
+      <div class="book-side reveal">
+        <p class="eyebrow">Availability &amp; rates</p>
+        <div class="price">£1,500 <small>per night, from</small></div>
+        <p style="margin-top:1rem;color:var(--ink-soft)">Exclusive use of the whole house and grounds. Rates vary by season, party size and occasion, and weddings and marquee events are quoted individually.</p>
+        <ul>
+          <li><strong>Minimum stay</strong>: 2 nights, or 3 over peak dates</li>
+          <li><strong>Check in and out</strong>: 4pm arrival, 10am departure</li>
+          <li><strong>Deposit</strong>: 25% to secure your dates</li>
+          <li><strong>Events</strong>: wedding and celebration packages priced on enquiry</li>
+          <li><strong>Response</strong>: we reply to every enquiry within 24 hours</li>
+        </ul>
+      </div>
+      <div class="form-card reveal">
+        <h3>Request your dates</h3>
+        <form id="bookform" novalidate>
+          <div class="frow">
+            <div class="fgroup"><label for="fin">Arrive</label><input type="date" id="fin" required></div>
+            <div class="fgroup"><label for="fout">Depart</label><input type="date" id="fout" required></div>
+          </div>
+          <div class="frow">
+            <div class="fgroup"><label for="fguests">Guests</label>
+              <select id="fguests" required>
+                <option value="">Select…</option>
+                <option>Up to 8</option><option>9 to 12</option><option>13 to 16</option><option>16+ (event day guests)</option>
+              </select>
+            </div>
+            <div class="fgroup"><label for="ftype">Occasion</label>
+              <select id="ftype">
+                <option>House stay</option><option>Wedding</option><option>Birthday / milestone</option><option>Family gathering</option><option>Corporate retreat</option><option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="frow">
+            <div class="fgroup"><label for="fname">Name</label><input type="text" id="fname" autocomplete="name" required></div>
+            <div class="fgroup"><label for="femail">Email</label><input type="email" id="femail" autocomplete="email" required></div>
+          </div>
+          <div class="fgroup"><label for="fphone">Phone (optional)</label><input type="tel" id="fphone" autocomplete="tel"></div>
+          <div class="fgroup"><label for="fmsg">Tell us about your stay</label><textarea id="fmsg" placeholder="Dates flexible? Planning a marquee? Interested in a private chef? Let us know."></textarea></div>
+          <div class="estimate" id="estimate" hidden>
+            <span>Estimated stay (<span id="estNights">0</span> nights)</span>
+            <span class="amt" id="estAmt">£0</span>
+            <span class="note">Guide price at the from-rate of £1,500/night. Your confirmed quote may vary by season and occasion.</span>
+          </div>
+          <button type="submit" class="btn dark" style="width:100%;padding:1.05rem">Send enquiry</button>
+          <p class="form-msg" id="formMsg" role="status"></p>
+          <p style="font-size:.75rem;color:var(--ink-soft);margin-top:.9rem">No payment is taken now. We'll confirm availability and a full quote by email, then hold your dates with a deposit.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section id="location">
+  <div class="container">
+    <div class="loc-grid">
+      <div class="reveal"><img src="images/g95.jpg" alt="Aerial view showing Greystones' setting among woodland, fields and the loch" loading="lazy" style="box-shadow:var(--shadow)"></div>
+      <div class="reveal">
+        <p class="eyebrow">Location</p>
+        <h2 style="font-size:clamp(2rem,4vw,3rem);margin-top:1rem">Kilmacolm, Renfrewshire</h2>
+        <p style="margin-top:1.2rem;color:var(--ink-soft)">Greystones sits in one of Kilmacolm's most coveted settings. The village is a short stroll away, the windows look out over open countryside and water, and the whole of the west of Scotland is within easy reach.</p>
+        <ul class="loc-list">
+          <li><span>Kilmacolm village</span><span>Walking distance</span></li>
+          <li><span>Glasgow Airport</span><span>~20 min drive</span></li>
+          <li><span>Glasgow city centre</span><span>~35 min drive</span></li>
+          <li><span>Loch Lomond</span><span>~45 min drive</span></li>
+          <li><span>Ayrshire golf coast</span><span>~40 min drive</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" style="padding-top:0">
+  <div class="container" style="max-width:820px">
+    <div class="sect-head reveal">
+      <p class="eyebrow">Good to know</p>
+      <h2>Questions, answered</h2>
+    </div>
+    <div class="reveal">
+      <details><summary>Is Greystones exclusively ours for the stay?</summary><p>Yes. Every booking is exclusive use. The whole house, gardens and grounds are yours for the duration of your stay.</p></details>
+      <details><summary>Can we hold our wedding ceremony at the house?</summary><p>Yes. Couples hold ceremonies on the lawn, in the conservatory or in the Great Hall, and we'll help you coordinate celebrants, licensing and suppliers when you enquire.</p></details>
+      <details><summary>How does catering work?</summary><p>Choose full private-chef service, event catering for larger wedding numbers, or self-catering in the main kitchen. A separate professional catering kitchen supports chefs and caterers throughout your stay.</p></details>
+      <details><summary>Can day guests join us beyond the 16 sleeping?</summary><p>Yes. For weddings and events, additional day guests can be accommodated, typically with a marquee on the main lawn. Tell us your numbers and we'll quote accordingly.</p></details>
+      <details><summary>Is there parking?</summary><p>Yes, the private drive comfortably takes the whole party's vehicles.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <a class="brand" href="#top" style="color:#fff">
+        <svg class="qf" width="26" height="26" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="20" cy="11" r="8" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="20" cy="29" r="8" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="11" cy="20" r="8" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="29" cy="20" r="8" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="20" cy="20" r="3.4" stroke="currentColor" stroke-width="1.4"/>
+        </svg>
+        <span><span class="name">Greystones</span><span class="place">Kilmacolm · Scotland</span></span>
+      </a>
+      <ul class="foot-links">
+        <li><a href="#house">The House</a></li>
+        <li><a href="#weddings">Weddings</a></li>
+        <li><a href="#catering">Catering</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+      <div>
+        <div style="font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:rgba(239,236,228,.45)">Enquiries</div>
+        <a href="mailto:stay@greystoneskilmacolm.co.uk" style="color:#fff">stay@greystoneskilmacolm.co.uk</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Greystones, Kilmacolm. All rights reserved.</span>
+      <span>Exclusive-use country house · Sleeps 12 to 16 · From £1,500 per night</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" onclick="closeLb()" role="dialog" aria-label="Image viewer">
+  <button aria-label="Close">×</button>
+  <img id="lbimg" src="" alt="Greystones photograph, enlarged">
+</div>
+
+<script>
+/* nav scroll state */
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40),{passive:true});
+
+/* mobile menu */
+function toggleMenu(){const l=document.getElementById('navlinks');const t=document.querySelector('.menu-toggle');const open=l.classList.toggle('open');t.setAttribute('aria-expanded',open)}
+function closeMenu(){document.getElementById('navlinks').classList.remove('open')}
+
+/* reveal on scroll */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* lightbox */
+function lb(a){document.getElementById('lbimg').src=a.href;document.getElementById('lightbox').classList.add('open');return false}
+function closeLb(){document.getElementById('lightbox').classList.remove('open')}
+addEventListener('keydown',e=>{if(e.key==='Escape')closeLb()});
+
+/* booking form */
+const RATE=1500;
+const fin=document.getElementById('fin'),fout=document.getElementById('fout');
+const est=document.getElementById('estimate'),estN=document.getElementById('estNights'),estA=document.getElementById('estAmt');
+const today=new Date();today.setDate(today.getDate()+1);
+fin.min=today.toISOString().slice(0,10);
+fin.addEventListener('change',()=>{const d=new Date(fin.value);d.setDate(d.getDate()+2);fout.min=d.toISOString().slice(0,10);calc()});
+fout.addEventListener('change',calc);
+function nights(){if(!fin.value||!fout.value)return 0;return Math.round((new Date(fout.value)-new Date(fin.value))/86400000)}
+function calc(){const n=nights();if(n>0){est.hidden=false;estN.textContent=n;estA.textContent='£'+(n*RATE).toLocaleString('en-GB')}else{est.hidden=true}}
+
+document.getElementById('bookform').addEventListener('submit',e=>{
+  e.preventDefault();
+  const msg=document.getElementById('formMsg');
+  msg.className='form-msg';
+  const n=nights();
+  const name=document.getElementById('fname').value.trim();
+  const email=document.getElementById('femail').value.trim();
+  if(!fin.value||!fout.value){show('err','Please choose your arrival and departure dates.');return}
+  if(n<2){show('err','Stays at Greystones start from 2 nights. Please adjust your departure date.');return}
+  if(!name||!/.+@.+\..+/.test(email)||!document.getElementById('fguests').value){show('err','Please add your name, a valid email address and your guest numbers so we can reply with a quote.');return}
+  /* Ready to wire to a backend / form service: POST the payload below to your endpoint. */
+  const payload={
+    arrive:fin.value,depart:fout.value,nights:n,
+    guests:document.getElementById('fguests').value,
+    occasion:document.getElementById('ftype').value,
+    name,email,phone:document.getElementById('fphone').value,
+    message:document.getElementById('fmsg').value,
+    estimate:n*RATE
+  };
+  console.log('Enquiry payload',payload);
+  const subject=encodeURIComponent('Greystones enquiry: '+payload.occasion+', '+fin.value+' to '+fout.value);
+  const body=encodeURIComponent('Name: '+name+'\nEmail: '+email+'\nPhone: '+payload.phone+'\nDates: '+fin.value+' to '+fout.value+' ('+n+' nights)\nGuests: '+payload.guests+'\nOccasion: '+payload.occasion+'\nEstimate at from-rate: £'+payload.estimate.toLocaleString('en-GB')+'\n\n'+payload.message);
+  window.location.href='mailto:stay@greystoneskilmacolm.co.uk?subject='+subject+'&body='+body;
+  show('ok','Thank you, '+name.split(' ')[0]+'. Your enquiry is ready to send and we reply to every request within 24 hours.');
+  function show(k,t){msg.classList.add(k);msg.textContent=t}
+});
+</script>
+</body>
+</html>
